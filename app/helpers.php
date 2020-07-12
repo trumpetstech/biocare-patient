@@ -277,7 +277,7 @@ function callRefundAPI($refundApiURL, $requestParamList) {
 function sendSMS($phone, $message) 
 {            
     $output = file_get_contents("http://sms.smsinsta.in/vb/apikey.php?apikey=26555686598076556772&%20senderid=SMSINS&route=3&number=${phone}&message=${message}");	/*default function for push any url*/
-    $output = file_get_contents("http://sms.smsinsta.in/vb/apikey.php?apikey=26555686598076556772&%20senderid=SMSINS&route=3&number=${phone}&message=${message}");	/*default function for push any url*/
+   // $output = file_get_contents("http://sms.smsinsta.in/vb/apikey.php?apikey=26555686598076556772&%20senderid=SMSINS&route=3&number=${phone}&message=${message}");	/*default function for push any url*/
     
 }
 
