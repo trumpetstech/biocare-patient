@@ -125,7 +125,7 @@
                 .then(res => {
                     console.log(res.data);
                     $('#verify-btn').html('Redirecting..');
-                    window.location = '/';
+                    window.location = '/home';
                 }).catch(err => {
                 $('#error').html(err.response.data.message);
                 $('#error').toggleClass('d-none');    
