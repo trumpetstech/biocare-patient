@@ -19,7 +19,7 @@
         <h3 class="section-title text-center">Our <span class="text-warning">COVID Care</span> Packages</span></h3>
         <div class="row">
             @foreach ($packages as $package)
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex">
